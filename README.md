@@ -43,9 +43,9 @@ Essa pergunta guia todas as análises e leva à construção do IVU — um score
 
 | Nome | Função | Branch |
 |---|---|---|
-| Rodrigo Torres | Renda/Social + Pipeline/Dashboard | `rodrigo/renda-social` · `rodrigo/pipeline-dashboard` |
-| Victor Vilela | Segurança Pública | `victor/seguranca` |
-| Arthur Von Sohsten | Mobilidade Urbana | `arthur/mobilidade` |
+| Rodrigo Torres | Renda/Social + Pipeline/Dashboard | `rodrigo` |
+| Victor Vilela | Segurança Pública | `victor` |
+| Arthur Von Sohsten | Mobilidade Urbana | `arthur` |
 
 ---
 
@@ -64,7 +64,7 @@ IVU-Recife/
 │   └── final/            ← dados prontos para análise e dashboard
 │
 ├── notebooks/
-│   ├── rodrigo/          ← renda e análise social
+│   ├── rodrigo/          ← renda, análise social e pipeline
 │   ├── victor/           ← segurança pública
 │   └── arthur/           ← mobilidade urbana
 │
@@ -91,10 +91,9 @@ IVU-Recife/
 | Branch | Responsável | Conteúdo |
 |---|---|---|
 | `main` | Todos | Apenas versão final aprovada |
-| `rodrigo/renda-social` | Rodrigo | Notebooks e dados de renda |
-| `victor/seguranca` | Victor | Notebooks e dados de crime |
-| `arthur/mobilidade` | Arthur | Notebooks e dados de transporte |
-| `rodrigo/pipeline-dashboard` | Rodrigo | Integração e dashboard final |
+| `rodrigo` | Rodrigo Torres | Renda/Social + Pipeline/Dashboard |
+| `victor` | Victor Vilela | Segurança Pública |
+| `arthur` | Arthur Von Sohsten | Mobilidade Urbana |
 
 > Regra: ninguém commita direto na `main`. Sempre abrir um Pull Request.
 
@@ -113,13 +112,13 @@ cd IVU-Recife
 
 ```bash
 # Rodrigo
-git checkout rodrigo/renda-social
+git checkout rodrigo
 
 # Victor
-git checkout victor/seguranca
+git checkout victor
 
 # Arthur
-git checkout arthur/mobilidade
+git checkout arthur
 ```
 
 ### 3. Instalar as dependências
