@@ -2,15 +2,15 @@
 
 Passo 1 — Cada um clona o repositório
 
-Passo 2 - Depois muda para sua branch:
+Passo 2 - Depois muda para sua branch(Colar no terminal):
 
-# Rodrigo 
+Rodrigo 
 git checkout rodrigo/renda-social
 
-# Victor
+Victor
 git checkout victor/seguranca
 
-# Arthur
+Arthur
 git checkout arthur/mobilidade
 
 Passo 3 — Instalar as bibliotecas: pip install -r requirements.txt
