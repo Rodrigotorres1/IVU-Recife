@@ -1,0 +1,10 @@
+pandas
+geopandas
+folium
+plotly
+streamlit
+notebook
+matplotlib
+seaborn
+osmnx
+requests

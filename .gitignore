@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IVU-Recife — dados brutos e arquivos de dados
+data/raw/*
+*.csv
+*.xlsx
+*.zip
