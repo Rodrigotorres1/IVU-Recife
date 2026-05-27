@@ -220,9 +220,5 @@ __marimo__/
 # IVU-Recife — dados brutos e arquivos de dados
 data/raw/*
 *.csv
-!data/processed/*.csv
 *.xlsx
 *.zip
-
-# Cache do Jupyter
-notebooks/arthur/cache/
