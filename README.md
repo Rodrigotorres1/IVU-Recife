@@ -224,3 +224,4 @@ Afogados        | 4.5           | R$ 1.100/mês
 ## 📄 Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+
