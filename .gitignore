@@ -223,3 +223,6 @@ data/raw/*
 !data/processed/*.csv
 *.xlsx
 *.zip
+
+# Cache do Jupyter
+notebooks/arthur/cache/
