@@ -220,5 +220,13 @@ __marimo__/
 # IVU-Recife — dados brutos e arquivos de dados
 data/raw/*
 *.csv
+!data/processed/*.csv
 *.xlsx
 *.zip
+
+# Arquivos geoespaciais grandes (regenerados pelos notebooks)
+data/processed/*.geojson
+
+# Outputs gerados em data/final/ (regenerados pelos notebooks)
+data/final/*
+!data/final/.gitkeep
