@@ -113,15 +113,12 @@ cd IVU-Recife
 ```bash
 # Rodrigo
 git checkout rodrigo
-git merge main
 
 # Victor
 git checkout victor
-git merge main
 
 # Arthur
 git checkout arthur
-git merge main
 ```
 
 ### 3. Instalar as dependências
