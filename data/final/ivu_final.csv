@@ -1,0 +1,95 @@
+bairro,IVU,nota_renda,nota_seguranca,nota_mobilidade,dado_renda,dado_seguranca,dado_mobilidade
+Jaqueira,7.35,10.0,10.0,1.17,"R$ 16.337,43",0 ocorrencias e 0 baleados,3 paradas
+Parnamirim,7.15,8.07,10.0,3.08,"R$ 13.405,17",0 ocorrencias e 0 baleados,20 paradas
+Casa Forte,6.86,8.67,9.45,1.85,"R$ 14.308,91",2 ocorrencias e 2 baleados,11 paradas
+Monteiro,6.48,6.51,10.0,2.92,"R$ 11.028,80",0 ocorrencias e 0 baleados,17 paradas
+Graças,6.35,6.99,10.0,1.84,"R$ 11.761,22",0 ocorrencias e 0 baleados,28 paradas
+Derby,6.21,5.35,10.0,3.56,"R$ 9.259,89",0 ocorrencias e 0 baleados,18 paradas
+Aflitos,6.15,6.5,10.0,1.84,"R$ 11.008,62",0 ocorrencias e 0 baleados,6 paradas
+Santo Antônio,6.12,0.75,9.4,10.0,"R$ 2.260,80",2 ocorrencias e 2 baleados,55 paradas
+Poço,6.05,7.26,9.67,0.83,"R$ 12.168,53",1 ocorrencia e 1 baleado,7 paradas
+Rosarinho,5.96,6.03,10.0,1.84,"R$ 10.288,50",0 ocorrencias e 0 baleados,5 paradas
+Espinheiro,5.95,5.75,10.0,2.18,"R$ 9.868,23",0 ocorrencias e 0 baleados,17 paradas
+Santana,5.95,6.94,10.0,0.59,"R$ 11.677,45",0 ocorrencias e 0 baleados,3 paradas
+Tamarineira,5.91,5.75,10.0,2.03,"R$ 9.867,05",0 ocorrencias e 0 baleados,22 paradas
+Encruzilhada,5.65,4.99,9.67,2.5,"R$ 8.709,60",1 ocorrencia e 1 baleado,27 paradas
+Madalena,5.38,5.03,9.23,2.0,"R$ 8.778,91",3 ocorrencias e 3 baleados,39 paradas
+Paissandu,5.29,3.48,10.0,3.0,"R$ 6.419,92",0 ocorrencias e 0 baleados,11 paradas
+Ilha do Leite,5.19,3.84,9.67,2.51,"R$ 6.958,19",1 ocorrencia e 1 baleado,7 paradas
+Ilha do Retiro,5.18,5.26,8.68,1.56,"R$ 9.121,81",5 ocorrencias e 4 baleados,9 paradas
+Soledade,5.02,2.66,10.0,3.2,"R$ 5.167,32",0 ocorrencias e 0 baleados,11 paradas
+Ponto de Parada,5.0,4.26,10.0,0.99,"R$ 7.596,61",0 ocorrencias e 0 baleados,2 paradas
+Torreão,4.96,4.04,10.0,1.16,"R$ 7.266,35",0 ocorrencias e 0 baleados,2 paradas
+Casa Amarela,4.8,3.34,8.9,2.65,"R$ 6.204,09",3 ocorrencias e 4 baleados,53 paradas
+Boa Vista,4.65,2.72,8.57,3.3,"R$ 5.250,98",5 ocorrencias e 4 baleados,62 paradas
+Hipódromo,4.5,2.8,10.0,1.25,"R$ 5.376,65",0 ocorrencias e 0 baleados,4 paradas
+Torre,4.23,3.88,7.97,0.96,"R$ 7.018,49",6 ocorrencias e 6 baleados,12 paradas
+Caxangá,4.13,1.39,10.0,1.91,"R$ 3.233,37",0 ocorrencias e 0 baleados,50 paradas
+Mangabeira,4.08,0.48,9.67,3.28,"R$ 1.846,19",1 ocorrencia e 1 baleado,10 paradas
+Zumbí,4.07,1.21,9.67,2.3,"R$ 2.959,16",1 ocorrencia e 1 baleado,10 paradas
+Cajueiro,4.02,1.34,9.34,2.26,"R$ 3.154,27",2 ocorrencias e 3 baleados,14 paradas
+Alto Santa Terezinha,4.0,0.15,8.35,4.79,"R$ 1.349,52",5 ocorrencias e 7 baleados,16 paradas
+Pau Ferro,3.99,2.48,10.0,0.0,"R$ 4.898,92",0 ocorrencias e 0 baleados,0 paradas
+Totó,3.97,0.34,9.34,3.43,"R$ 1.629,82",2 ocorrencias e 2 baleados,5 paradas
+Engenho do Meio,3.86,1.36,8.96,2.1,"R$ 3.183,56",2 ocorrencias e 4 baleados,19 paradas
+Prado,3.86,1.65,8.13,2.54,"R$ 3.628,10",6 ocorrencias e 6 baleados,34 paradas
+Boa Viagem,3.86,5.62,3.85,1.52,"R$ 9.664,02",19 ocorrencias e 22 baleados,125 paradas
+Porto da Madeira,3.86,0.92,9.67,1.96,"R$ 2.512,69",1 ocorrencia e 1 baleado,10 paradas
+Alto do Mandu,3.84,0.62,9.34,2.65,"R$ 2.064,06",2 ocorrencias e 2 baleados,7 paradas
+Cidade Universitária,3.82,1.09,9.4,1.88,"R$ 2.772,19",1 ocorrencia e 3 baleados,33 paradas
+Beberibe,3.72,0.21,10.0,2.12,"R$ 1.434,48",0 ocorrencias e 0 baleados,11 paradas
+Fundão,3.7,0.73,10.0,1.35,"R$ 2.227,07",0 ocorrencias e 0 baleados,9 paradas
+Santo Amaro,3.7,1.63,8.08,2.09,"R$ 3.591,84",7 ocorrencias e 5 baleados,75 paradas
+Apipucos,3.68,1.05,10.0,0.87,"R$ 2.710,47",0 ocorrencias e 0 baleados,12 paradas
+Sancho,3.66,0.35,9.78,1.94,"R$ 1.643,73",1 ocorrencia e 1 baleado,13 paradas
+Mangueira,3.63,0.3,8.13,3.58,"R$ 1.566,32",7 ocorrencias e 7 baleados,12 paradas
+Cabanga,3.6,0.37,9.67,1.83,"R$ 1.681,01",1 ocorrencia e 1 baleado,11 paradas
+Bongi,3.59,0.85,8.79,2.04,"R$ 2.406,40",5 ocorrencias e 4 baleados,13 paradas
+Estância,3.59,0.55,8.79,2.45,"R$ 1.955,69",4 ocorrencias e 4 baleados,21 paradas
+Tejipió,3.57,1.23,8.24,2.03,"R$ 2.983,55",5 ocorrencias e 6 baleados,21 paradas
+Alto José Bonifácio,3.55,0.22,8.24,3.31,"R$ 1.455,46",5 ocorrencias e 6 baleados,20 paradas
+Imbiribeira,3.54,1.73,7.97,1.53,"R$ 3.750,09",7 ocorrencias e 7 baleados,108 paradas
+Arruda,3.54,0.98,8.68,1.82,"R$ 2.604,73",5 ocorrencias e 4 baleados,19 paradas
+Cordeiro,3.53,1.75,7.2,2.24,"R$ 3.781,89",9 ocorrencias e 11 baleados,81 paradas
+Córrego do Jenipapo,3.53,0.16,8.3,3.25,"R$ 1.364,08",5 ocorrencias e 5 baleados,21 paradas
+Vasco da Gama,3.52,1.16,8.13,2.06,"R$ 2.881,71",7 ocorrencias e 7 baleados,35 paradas
+Linha do Tiro,3.46,0.2,8.24,3.01,"R$ 1.426,11",5 ocorrencias e 6 baleados,26 paradas
+Coqueiral,3.46,0.25,8.46,2.73,"R$ 1.501,00",5 ocorrencias e 5 baleados,15 paradas
+Morro da Conceição,3.45,0.28,8.9,2.23,"R$ 1.538,83",3 ocorrencias e 4 baleados,9 paradas
+Campina do Barreto,3.44,0.56,7.42,3.3,"R$ 1.972,12",7 ocorrencias e 10 baleados,19 paradas
+Ipsep,3.41,1.2,7.36,2.42,"R$ 2.937,67",9 ocorrencias e 8 baleados,46 paradas
+Jordão,3.37,0.36,8.79,1.97,"R$ 1.670,92",4 ocorrencias e 4 baleados,33 paradas
+Areias,3.33,0.92,7.58,2.28,"R$ 2.512,57",9 ocorrencias e 9 baleados,58 paradas
+Caçote,3.31,0.09,9.67,1.24,"R$ 1.246,28",1 ocorrencia e 1 baleado,6 paradas
+San Martin,3.31,1.05,8.02,1.6,"R$ 2.716,84",5 ocorrencias e 7 baleados,35 paradas
+Coelhos,3.3,0.25,8.46,2.21,"R$ 1.489,89",5 ocorrencias e 5 baleados,10 paradas
+Recife,3.3,0.0,10.0,0.99,"R$ 1.116,60",0 ocorrencias e 0 baleados,13 paradas
+Cohab,3.29,0.57,7.47,2.74,"R$ 1.978,02",8 ocorrencias e 10 baleados,126 paradas
+Brasília Teimosa,3.19,0.33,8.13,2.06,"R$ 1.615,62",6 ocorrencias e 6 baleados,14 paradas
+Brejo de Beberibe,3.14,0.2,6.87,3.33,"R$ 1.427,46",10 ocorrencias e 11 baleados,23 paradas
+Bomba do Hemetério,3.13,0.35,6.7,3.27,"R$ 1.654,34",10 ocorrencias e 13 baleados,15 paradas
+Mustardinha,3.11,0.38,8.68,1.18,"R$ 1.696,83",4 ocorrencias e 4 baleados,8 paradas
+Peixinhos,3.1,0.05,10.0,0.27,"R$ 1.195,42",0 ocorrencias e 0 baleados,1 paradas
+Campo Grande,3.1,1.03,7.03,1.93,"R$ 2.678,00",9 ocorrencias e 10 baleados,46 paradas
+Dois Irmãos,3.08,0.44,9.23,0.46,"R$ 1.793,39",2 ocorrencias e 3 baleados,29 paradas
+Sítio dos Pintos - São Brás,3.01,0.47,8.46,0.96,"R$ 1.834,45",5 ocorrencias e 5 baleados,17 paradas
+São José,2.95,0.7,5.77,3.13,"R$ 2.187,88",13 ocorrencias e 17 baleados,59 paradas
+Barro,2.9,0.59,7.75,1.13,"R$ 2.018,89",6 ocorrencias e 8 baleados,53 paradas
+Jiquiá,2.74,0.49,7.14,1.35,"R$ 1.856,67",6 ocorrencias e 9 baleados,24 paradas
+Macaxeira,2.65,0.53,5.88,2.26,"R$ 1.928,94",12 ocorrencias e 14 baleados,30 paradas
+Alto José do Pinho,2.61,0.24,7.03,1.36,"R$ 1.488,98",11 ocorrencias e 11 baleados,6 paradas
+Jardim São Paulo,2.52,1.09,4.56,2.4,"R$ 2.779,70",16 ocorrencias e 18 baleados,65 paradas
+Ilha Joana Bezerra,2.48,0.01,6.48,1.77,"R$ 1.134,42",12 ocorrencias e 12 baleados,22 paradas
+Ibura,2.48,0.34,7.03,0.78,"R$ 1.635,80",10 ocorrencias e 9 baleados,84 paradas
+Iputinga,2.09,1.14,3.79,1.65,"R$ 2.844,65",21 ocorrencias e 21 baleados,76 paradas
+Pina,2.06,1.75,3.9,0.64,"R$ 3.786,06",19 ocorrencias e 23 baleados,43 paradas
+Curado,2.05,0.3,5.77,0.65,"R$ 1.569,75",14 ocorrencias e 14 baleados,55 paradas
+Passarinho,1.98,0.05,5.99,0.53,"R$ 1.193,83",13 ocorrencias e 14 baleados,23 paradas
+Torrões,1.98,0.28,4.78,1.46,"R$ 1.542,65",16 ocorrencias e 20 baleados,26 paradas
+Várzea,1.75,1.1,3.68,0.68,"R$ 2.791,53",18 ocorrencias e 23 baleados,163 paradas
+Brejo da Guabiraba,1.73,0.22,4.51,0.95,"R$ 1.450,60",15 ocorrencias e 18 baleados,8 paradas
+Afogados,1.66,0.55,3.35,1.44,"R$ 1.949,84",23 ocorrencias e 21 baleados,52 paradas
+Água Fria,1.66,0.29,2.64,2.5,"R$ 1.558,77",20 ocorrencias e 25 baleados,51 paradas
+Guabiraba,1.59,0.51,4.56,0.05,"R$ 1.899,21",16 ocorrencias e 18 baleados,24 paradas
+Nova Descoberta,0.82,0.21,0.0,2.47,"R$ 1.431,94",22 ocorrencias e 33 baleados,48 paradas
+Dois Unidos,0.66,0.17,0.05,1.94,"R$ 1.371,21",31 ocorrencias e 35 baleados,65 paradas

@@ -230,3 +230,5 @@ data/processed/*.geojson
 # Outputs gerados em data/final/ (regenerados pelos notebooks)
 data/final/*
 !data/final/.gitkeep
+!data/final/ivu_final.csv
+!data/final/recife_ivu.geojson
