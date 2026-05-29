@@ -9,4 +9,5 @@ seaborn>=0.13.2
 osmnx>=2.0.0
 requests>=2.32.3
 openpyxl>=3.1.5
+numpy>=1.26.0
 nbstripout

@@ -33,9 +33,9 @@ Observacao metodologica: a analise foi feita a partir dos sites de seguranca pub
 - Agrega ocorrencias por bairro.
 - Calcula a nota de seguranca de 0 a 10.
 - Gera o mapa de calor em `docs/mapa_hotspots_seguranca.html`.
-- Salva `data/processed/notas_segurança.csv` e `data/processed/notas_seguranca.csv`.
+- Salva `data/processed/notas_seguranca.csv`.
 
-Todos os CSVs gerados pela parte de seguranca usam codificacao `utf-8-sig` e separador `;`, para abrir corretamente no Excel em portugues.
+Todos os CSVs gerados pela parte de seguranca usam codificacao `utf-8` e separador `,`.
 
 ---
 
@@ -45,9 +45,7 @@ Todos os CSVs gerados pela parte de seguranca usam codificacao `utf-8-sig` e sep
 |---|---|
 | `data/processed/ocorrencias_seguranca_recife.csv` | Ocorrencias limpas, uma linha por registro |
 | `data/processed/recife_seguranca_bairros.csv` | Agregacao por bairro da analise de seguranca, com cada indicador em uma coluna |
-| `data/processed/seguranca_por_bairro.csv` | Agregacao por bairro com ocorrencias, mortos, feridos, baleados e indice de risco |
-| `data/processed/notas_segurança.csv` | Arquivo final da dimensao seguranca com bairro, nota e indicador principal |
-| `data/processed/notas_seguranca.csv` | Versao sem acento no nome para facilitar abertura em alguns sistemas |
+| `data/processed/notas_seguranca.csv` | Arquivo final da dimensao seguranca com bairro, nota e indicador principal |
 | `data/processed/seguranca_contexto_sds_recife_2025.csv` | Totais municipais de CVLI e CVP da SDS-PE para contextualizacao |
 | `docs/mapa_hotspots_seguranca.html` | Heatmap interativo das ocorrencias georreferenciadas |
 
@@ -79,12 +77,12 @@ nota = 10 - ((indice_risco - risco_min) / (risco_max - risco_min) * 10)
 
 ---
 
-## Estrutura do notas_segurança.csv
+## Estrutura do notas_seguranca.csv
 
 ```csv
-bairro;nota_dimensao;dado_principal
-Aflitos;10.0;"0 ocorrencias e 0 baleados"
-Nova Descoberta;0.0;"22 ocorrencias e 33 baleados"
+bairro,nota_dimensao,dado_principal
+Aflitos,10.0,"0 ocorrencias e 0 baleados"
+Nova Descoberta,0.0,"22 ocorrencias e 33 baleados"
 ```
 
 | Coluna | Tipo | Descricao |
