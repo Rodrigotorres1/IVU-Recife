@@ -32,8 +32,14 @@ st.sidebar.title('IVU — Recife')
 st.sidebar.markdown('**Índice de Vulnerabilidade Urbana**')
 st.sidebar.markdown('---')
 st.sidebar.markdown(
-    'Combina renda, segurança e mobilidade em um score de **0 a 10** por bairro.\n\n'
-    '```\nIVU = renda×0,4 + seg×0,3 + mob×0,3\n```'
+    'Combina renda, segurança e mobilidade em um score de **0 a 10** por bairro.'
+)
+st.sidebar.markdown(
+    '<p style="font-family:monospace; font-size:0.85em; '
+    'background:#1e1e1e; padding:8px 10px; border-radius:4px; '
+    'color:#e0e0e0; margin-top:4px;">'
+    'IVU = renda×0,4 + seg×0,3 + mob×0,3</p>',
+    unsafe_allow_html=True,
 )
 st.sidebar.markdown('---')
 st.sidebar.caption('94 bairros de Recife · Dados de 2025')
