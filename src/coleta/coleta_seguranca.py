@@ -11,7 +11,7 @@ import requests
 
 
 API_URL = "https://api-service.fogocruzado.org.br/api/v2"
-PUBLIC_API_SECRET = "REMOVED"
+PUBLIC_API_SECRET = os.getenv('FOGO_CRUZADO_API_SECRET', '')
 
 PERNAMBUCO_ID = "813ca36b-91e3-4a18-b408-60b27a1942ef"
 RECIFE_ID = "fb1c4e7d-1f61-4a86-b514-d93d533df7a3"
