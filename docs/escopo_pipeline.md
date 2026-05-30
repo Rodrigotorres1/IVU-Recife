@@ -17,9 +17,7 @@ Integrar as três dimensões de análise (renda, segurança e mobilidade) em um 
 |---|---|---|---|
 | Renda | Rodrigo | `notas_renda.csv` | CONCLUÍDO |
 | Mobilidade | Arthur | `mobilidade_por_bairro.csv` | CONCLUÍDO |
-| Segurança | Victor | `notas_seguranca.csv` | **AGUARDANDO** |
-
-> O pipeline não pode ser executado completamente até a entrega de `notas_seguranca.csv` pelo Victor.
+| Segurança | Victor | `notas_seguranca.csv` | CONCLUÍDO |
 
 ---
 
@@ -57,7 +55,7 @@ Padrão obrigatório dos CSVs de entrada:
 
 ## Notebook do pipeline
 
-`notebooks/pipeline/04_pipeline_ivu.ipynb` (a criar):
+`notebooks/pipeline/04_pipeline_ivu.ipynb`:
 - Carrega os 3 CSVs de notas
 - Valida: 94 bairros, sem nulos, notas entre 0 e 10, nomes alinhados
 - Calcula o IVU com os pesos acima
@@ -76,7 +74,7 @@ Padrão obrigatório dos CSVs de entrada:
 Estrutura do `ivu_final.csv`:
 
 ```
-bairro,ivu,nota_renda,nota_seguranca,nota_mobilidade
+bairro,IVU,nota_renda,nota_seguranca,nota_mobilidade
 Jaqueira,7.2,10.0,6.5,3.6
 Boa Viagem,5.4,7.8,4.2,2.1
 ...
@@ -86,7 +84,7 @@ Boa Viagem,5.4,7.8,4.2,2.1
 
 ## Dashboard Streamlit
 
-`dashboard/app.py` (a criar):
+`dashboard/app.py`:
 
 ### Seções planejadas
 
@@ -116,8 +114,5 @@ streamlit run app.py
 
 ## Próximos passos
 
-1. Receber `notas_seguranca.csv` do Victor (94 bairros, padrão `bairro|nota_dimensao|dado_principal`)
-2. Executar `04_pipeline_ivu.ipynb` para gerar `ivu_final.csv` e `recife_ivu.geojson`
-3. Criar `dashboard/app.py`, `mapa.py` e `graficos.py`
-4. Testar o dashboard localmente com `streamlit run app.py`
-5. Publicar resultado final
+1. Testar o dashboard localmente com `streamlit run app.py`
+2. Publicar resultado final
