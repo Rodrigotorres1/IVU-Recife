@@ -54,8 +54,8 @@ def fig_dimensoes(df: pd.DataFrame) -> go.Figure:
         height=2200,
         xaxis=dict(range=[0, 11], title='Nota (0–10)'),
         yaxis_title='',
-        legend=dict(orientation='h', yanchor='top', y=-0.01, xanchor='center', x=0.5),
-        margin=dict(l=0, r=60, t=50, b=60),
+        legend=dict(orientation='v', yanchor='middle', y=0.5, xanchor='left', x=1.02),
+        margin=dict(l=0, r=120, t=50, b=0),
     )
     return fig
 
