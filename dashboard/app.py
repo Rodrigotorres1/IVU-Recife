@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from graficos import fig_bairro_detalhe, fig_dimensoes, fig_ivu_completo, fig_ranking
 from mapa import mapa_cloropletico
 
-ROOT         = Path(__file__).parent.parent
+ROOT         = Path(__file__).resolve().parent.parent
 DATA_CSV     = ROOT / 'data' / 'final' / 'ivu_final.csv'
 DATA_GEOJSON = ROOT / 'data' / 'final' / 'recife_ivu.geojson'
 
