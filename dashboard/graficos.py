@@ -31,31 +31,32 @@ def fig_ranking(df: pd.DataFrame, n: int = 10) -> tuple:
 def fig_dimensoes(df: pd.DataFrame) -> go.Figure:
     df_plot = df.sort_values('IVU', ascending=False)
 
-    fig = go.Figure()
-    dimensoes = [
-        ('nota_renda',      'Renda',      '#2ecc71'),
-        ('nota_seguranca',  'Segurança',  '#e74c3c'),
-        ('nota_mobilidade', 'Mobilidade', '#3498db'),
-    ]
-    for col, nome, cor in dimensoes:
-        fig.add_trace(go.Bar(
-            y=df_plot['bairro'], x=df_plot[col],
-            name=nome, orientation='h',
-            marker_color=cor, opacity=0.85,
-        ))
-    fig.add_trace(go.Scatter(
-        y=df_plot['bairro'], x=df_plot['IVU'],
-        name='IVU', mode='markers',
-        marker=dict(symbol='diamond', size=8, color='#2c3e50'),
+    z = df_plot[['nota_renda', 'nota_seguranca', 'nota_mobilidade', 'IVU']].values.T
+    labels_y = ['Renda', 'Segurança', 'Mobilidade', 'IVU']
+
+    fig = go.Figure(go.Heatmap(
+        z=z,
+        x=df_plot['bairro'].tolist(),
+        y=labels_y,
+        colorscale='RdYlGn',
+        zmin=0,
+        zmax=10,
+        text=[[f'{v:.1f}' for v in row] for row in z],
+        texttemplate='%{text}',
+        textfont=dict(size=9),
+        hovertemplate='<b>%{x}</b><br>%{y}: %{z:.2f}<extra></extra>',
+        colorbar=dict(title='Nota<br>(0–10)', tickformat='.0f'),
     ))
     fig.update_layout(
-        barmode='group',
         title='Comparativo das 3 Dimensões por Bairro',
-        height=2200,
-        xaxis=dict(range=[0, 11], title='Nota (0–10)'),
-        yaxis_title='',
-        legend=dict(orientation='v', yanchor='middle', y=0.5, xanchor='left', x=1.02),
-        margin=dict(l=0, r=120, t=50, b=0),
+        height=300,
+        xaxis=dict(
+            tickangle=-60,
+            tickfont=dict(size=9),
+            title='',
+        ),
+        yaxis=dict(title='', autorange='reversed'),
+        margin=dict(l=90, r=80, t=50, b=140),
     )
     return fig
 
