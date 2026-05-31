@@ -22,7 +22,7 @@ st.set_page_config(
 
 @st.cache_data
 def carregar_dados() -> pd.DataFrame:
-    return pd.read_csv(DATA_CSV)
+    return pd.read_csv(DATA_CSV, encoding='utf-8')
 
 
 df = carregar_dados()
