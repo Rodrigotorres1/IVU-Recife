@@ -5,8 +5,10 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 ![GeoPandas](https://img.shields.io/badge/GeoPandas-1.0-green?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red?style=flat-square&logo=streamlit)
-![Status](https://img.shields.io/badge/Status-Pronto%20para%20deploy-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Online-brightgreen?style=flat-square)
 ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey?style=flat-square)
+
+🔗 **[Acessar o dashboard ao vivo](https://ivu-recife.streamlit.app/)**
 
 ---
 
