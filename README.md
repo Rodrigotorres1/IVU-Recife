@@ -3,7 +3,7 @@
 > Análise urbana integrada de Recife cruzando dados de renda, segurança, mobilidade e infraestrutura para calcular o Índice de Vulnerabilidade Urbana (IVU) dos 94 bairros da cidade.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-0.14-green?style=flat-square)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-1.0-green?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red?style=flat-square&logo=streamlit)
 ![Status](https://img.shields.io/badge/Status-Pronto%20para%20deploy-brightgreen?style=flat-square)
 ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey?style=flat-square)
