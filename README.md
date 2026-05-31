@@ -56,6 +56,7 @@ IVU-Recife/
 │
 ├── README.md
 ├── requirements.txt
+├── requirements-dev.txt
 ├── .gitignore
 │
 ├── data/
