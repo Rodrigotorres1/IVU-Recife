@@ -166,6 +166,8 @@ cd dashboard
 streamlit run app.py
 ```
 
+> **Streamlit Cloud:** no painel de deploy, configure o campo **Main file path** como `dashboard/app.py`.
+
 ---
 
 ## 📦 Padrão de Entrega
