@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 ![GeoPandas](https://img.shields.io/badge/GeoPandas-0.14-green?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red?style=flat-square&logo=streamlit)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Pronto%20para%20deploy-brightgreen?style=flat-square)
 ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey?style=flat-square)
 
 ---
@@ -124,7 +124,11 @@ git checkout arthur
 ### 3. Instalar as dependências
 
 ```bash
+# Dependências do dashboard (produção)
 pip install -r requirements.txt
+
+# Dependências adicionais para rodar os notebooks localmente
+pip install -r requirements-dev.txt
 ```
 
 ### 4. Baixar os dados de cada dimensão
